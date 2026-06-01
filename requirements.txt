@@ -1,0 +1,8 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+# Optional: typological distances are computed from lang2vec/URIEL if present,
+# otherwise the notebook uses its precomputed fallback table.
+lang2vec>=1.1.1

@@ -1,0 +1,32 @@
+# model checkpoints (large, regenerable)
+**/ckpt_*/
+*.safetensors
+*.bin
+*.pt
+
+# scratch output dirs
+outputs/
+outputs_2x2/
+dcsm_outputs/
+
+# datasets / caches
+**/.cache/
+*.arrow
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS
+.DS_Store
